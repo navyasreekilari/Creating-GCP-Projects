@@ -1,4 +1,4 @@
-# Creating-GCP-Projects
+# Building and Testing applications on GCP
 Building, Testing and deploying application on Google cloud platform 
 
 Here, I am using Python programming language to build my code. (You can use any programming language you are comfortable with, to build your code)

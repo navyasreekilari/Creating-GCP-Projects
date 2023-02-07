@@ -1,0 +1,31 @@
+Here, we focus on creating GCP projects, folders and resources and how we use them for resource organization.
+
+
+Project is stored at lower level resources and logical group.
+Any resources you create in Compute engine instances, Cloud storage buckets and cloud sql db should be listed under projects.
+Grouping of projects were done in folders.
+Only projects that contain resources were other folders.
+Folders can also be nested under organization(that is top level of the hirerarchy).
+
+Top to bottom hirerarchy at a company
+      Organization
+          |
+          |
+       Folders
+          |
+          |
+       Projects
+          |
+          |
+       Resources
+
+Creating a project:(they are 2 types for that)
+Type 1
+Step 1: At top left column in google platform, ,click on the new project
+Step 2: Name the project
+
+Type 2
+Step 1: Activate cloud shell ( click on the right most top icon on console)
+step 2: In prompt type: gcloud projects create name_of_the_project             (name should be globally unique)
+step 3: type: gcloud config set project name_of_the_project
+
